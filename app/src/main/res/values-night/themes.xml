@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/appbarbg</item>
+        <item name="android:textColor">@color/appbartext</item>
+        <item name="popupMenuStyle">@style/CustomPopupMenuStyle</item>
+    </style>
+</resources>

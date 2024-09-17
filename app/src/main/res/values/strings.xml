@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+    <string name="about_title">About Calculator App</string>
+    <string name="about_description">
+        <![CDATA[
+        Welcome to the <b>Calculator App</b>!<br/><br/>
+        This app is designed to make calculations easy and efficient. Key features include:<br/><br/>
+        - <b>Basic & Advanced Operations</b>: Perform a variety of mathematical calculations.<br/>
+        - <b>History Page</b>: View and manage your previous calculations.<br/>
+        - <b>Light & Dark Themes</b>: Choose between light and dark modes for a comfortable experience.<br/><br/>
+        <b>Developed by</b>: Sohan Beniwal<br/>
+        <b>LinkedIn</b>: <a href="https://in.linkedin.com/in/sohan-beniwal">Sohan Beniwal</a><br/><br/>
+        Thank you for using the Calculator App!
+        ]]>
+    </string>
+</resources>

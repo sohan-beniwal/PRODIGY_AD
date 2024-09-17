@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">@color/JetBlack</color>
+    <color name="ansbackground">@color/DimGrey</color>
+    <color name="textcolor">@color/CamBlue</color>
+    <color name="btnbg">@color/DimGrey</color>
+    <color name="btnbgsymbol">@color/yellow</color>
+    <color name="textcolorsymbol">@color/black</color>
+    <color name="appbarbg">@color/JetBlack</color>
+    <color name="appbartext">@color/CamBlue</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".uilayer.HistoryActivity">
+
+    <include
+        android:id="@+id/app_bar_history"
+        layout="@layout/app_bar_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/historytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/about_title"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp"
+        android:layout_below="@id/app_bar_history" />
+
+    <TextView
+        android:id="@+id/historyshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:padding="10dp"
+        android:text="Here about will be shown"
+        android:autoLink="none"
+        android:linksClickable="true"
+        android:textColorLink="@color/yellow"
+    android:textSize="15sp"
+
+    android:layout_below="@id/historytext" />
+
+</RelativeLayout>

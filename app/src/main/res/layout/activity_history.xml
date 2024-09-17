@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".uilayer.HistoryActivity">
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btndeletehistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete History"
+        android:textColor="@color/appbartext"
+        android:backgroundTint="@color/appbarbg"
+        android:layout_below="@+id/app_bar_history"
+        >
+    </Button>
+    <include
+        android:id="@+id/app_bar_history"
+        layout="@layout/app_bar_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/historytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="History"
+        android:textColor="@color/textcolor"
+        android:textSize="30dp"
+        android:layout_below="@id/btndeletehistory"
+        tools:layout_editor_absoluteX="0dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/historyshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:padding="10dp"
+        android:text="History will be shown here"
+        android:textSize="15dp"
+        android:layout_below="@id/historytext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+    </TextView>
+
+</RelativeLayout>
+

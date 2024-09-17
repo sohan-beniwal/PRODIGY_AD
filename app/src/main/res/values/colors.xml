@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#212529</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="CamBlue">#ADE9CF</color>
+    <color name="DimGrey">#656666</color>
+    <color name="JetBlack">#2A2A2A</color>
+    <color name="BlackOlive">#484845</color>
+    <color name="blue">#caf0f8</color>
+    <color name="lightblue">#003554</color>
+    <color name="yellow">#EAC34E</color>
+    <color name="background">@color/white</color>
+    <color name="ansbackground">@color/blue</color>
+    <color name="textcolor">@color/black</color>
+    <color name="textcolorsymbol">@color/white</color>
+    <color name="btnbg">@color/blue</color>
+    <color name="btnbgsymbol">@color/lightblue</color>
+    <color name="appbarbg">@color/lightblue</color>
+    <color name="appbartext">@color/white</color>
+</resources>

@@ -1,0 +1,8 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Custom style for Popup Menu background -->
+    <style name="CustomPopupMenuStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Set the background color of the popup menu -->
+        <item name="android:popupBackground">@color/appbarbg</item>
+    </style>
+</resources>
